@@ -1,4 +1,4 @@
-package com.tecsofec.sysventas.controller;
+package com.tecsofec.sysventas.controller.v1;
 
 import java.util.List;
 
