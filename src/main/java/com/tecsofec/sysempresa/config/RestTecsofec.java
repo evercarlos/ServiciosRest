@@ -1,4 +1,4 @@
-package com.tecsofec.sysventas.config;
+package com.tecsofec.sysempresa.config;
 
 public class RestTecsofec {
 	

@@ -1,10 +1,10 @@
-package com.tecsofec.sysventas;
+package com.tecsofec.sysempresa;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SysventasApplicationTests {
+class SysempresaApplicationTests {
 
 	@Test
 	void contextLoads() {

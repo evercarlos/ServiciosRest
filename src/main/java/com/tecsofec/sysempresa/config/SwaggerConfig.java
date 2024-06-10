@@ -1,4 +1,4 @@
-package com.tecsofec.sysventas.config;
+package com.tecsofec.sysempresa.config;
 
 import java.util.Arrays;
 
@@ -20,12 +20,12 @@ public class SwaggerConfig {
 	
 	@Bean
     public Docket productApi() {
-        ApiInfo apiInfo = new ApiInfoBuilder().title("SERVICIOS DE MUNICIPALIDAD")
+        ApiInfo apiInfo = new ApiInfoBuilder().title("SERVICIOS")
                 .description(
-                        "Api, donde se gestiona los procesos municipales")
+                        "Api, donde se gestiona los procesos")
                 .version("1.0").license("Este api esta bajo la Apache license Version 2.0").build();
         return new Docket(DocumentationType.SWAGGER_2).apiInfo(apiInfo).select()
-                .apis(RequestHandlerSelectors.basePackage("com.tecsofec.sysventas.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.tecsofec.sysempresa.controller"))
                 .paths(PathSelectors.ant("/api/**")).build().useDefaultResponseMessages(false)
                 .securitySchemes(Arrays.asList(apiKey()));
     }

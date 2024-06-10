@@ -1,4 +1,4 @@
-package com.tecsofec.sysventas.controller;
+package com.tecsofec.sysempresa.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -8,11 +8,11 @@
 		<version>2.4.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.tecsofec.sysventas</groupId>
-	<artifactId>sysventas</artifactId>
+	<groupId>com.tecsofec.sysempresa</groupId>
+	<artifactId>sysempresa</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>sysventas</name>
-	<description>Sistema de Ventas</description>
+	<name>sysempresa</name>
+	<description>Sistema de Empresas</description>
 	<properties>
 		<java.version>11</java.version>
 		<swagger.version>2.9.2</swagger.version>

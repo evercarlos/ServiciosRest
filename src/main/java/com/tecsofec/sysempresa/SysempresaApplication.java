@@ -1,13 +1,13 @@
-package com.tecsofec.sysventas;
+package com.tecsofec.sysempresa;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SysventasApplication {
+public class SysempresaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SysventasApplication.class, args);
+		SpringApplication.run(SysempresaApplication.class, args);
 	}
 
 }
