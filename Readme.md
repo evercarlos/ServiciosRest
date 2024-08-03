@@ -1,5 +1,5 @@
 
-## CRUD SPRING BOOT WITH POSTGRSQL
+## CRUD BÁSICO DE SPRING BOOT WITH POSTGRSQL
 # Requerimientos
 * postgrsql 
 * java 8 ó 11
