@@ -1,7 +1,7 @@
 
 ## CRUD BÁSICO DE SPRING BOOT CON POSTGRSQL
 # Requerimientos
-* postgrsql 
+* postgreSQL 
 * java 8 ó 11
 # Intrucciones
 * Instalar postgrsql en el puerto 5432 o cambiar en resources el puerto de postgresql
