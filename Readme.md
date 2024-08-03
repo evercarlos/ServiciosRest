@@ -1,11 +1,12 @@
 
 ## CRUD BÁSICO DE SPRING BOOT CON POSTGRSQL
 # Requerimientos
-* postgreSQL 
+* postgreSQL
 * java 8 ó 11
 # Intrucciones
 * Instalar postgrsql en el puerto 5432 o cambiar en resources el puerto de postgresql
 * Crear la base de datos con nombre dbcrud ```dbcrud```
+* La db esta en la raiz del proyecto con nombre de ```dbcrud.sql```
 # Como ejecutar el proyecto
 * Descargar de github
 * Ir al main y ejecutar con su editor de texto ```(intellij idea, netbeans, etc)```
